@@ -16,6 +16,15 @@ A collection of deep learning image classification models using PyTorch and pre-
 - ConvNeXt
 - Jupyter Notebooks
 
+## Data Augmentation Techniques
+
+- Random resized cropping
+- Horizontal and vertical flips
+- Chess-specific 90° rotations (for chess classification)
+- Color jittering (brightness, contrast, saturation, hue)
+- Gaussian blur
+- Test Time Augmentation (TTA) for improved inference
+
 ## Usage
 
 Open any of the `.ipynb` files in Jupyter Notebook or VS Code to run the classification models.
